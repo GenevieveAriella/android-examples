@@ -10,7 +10,7 @@ public class PlayAudio {
     private final String LOGTAG = getClass().getSimpleName().toString();
     private boolean isPlaying = false;
     MediaPlayer mPlayer = null;
-
+////maggie was here
     void releaseMedidaPalyer() {
         if (mPlayer != null) {
             mPlayer.release();
